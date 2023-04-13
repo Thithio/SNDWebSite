@@ -1,0 +1,267 @@
+body {
+  background-color: #C5C4C4;
+  font-family: Helvetica, Arial, sans-serif
+}
+
+p {
+  float: top;
+  width: 200px;
+  color: black;
+  text-align: right;
+}
+
+b {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 58px;
+  top: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 90px;
+}
+
+hr {
+  margin-left: 15px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#headline {
+  position: absolute;
+  width: 399px;
+  height: 86px;
+  left: 420px;
+  top: 30px;
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 10px;
+  color: #000000;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+#container {
+  position: absolute;
+  width: 1334px;
+  height: 857px;
+  left: 53px;
+  top: 86px;
+  line-height: 60px;
+  background: rgba(31, 107, 197, 0.07);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 37px;
+}
+
+#header {
+  position: absolute;
+  width: 800px;
+  height: 40px;
+  left: 600px;
+  top: 140px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+  color: #152536;
+}
+
+#circle {
+  position: absolute;
+  width: 140px;
+  height: 136px;
+  left: 420px;
+  top: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: rgba(11, 11, 10, 0.68);
+  mix-blend-mode: overlay;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#corner {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 1200px;
+  top: 30px;
+}
+
+#corner2 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 1050px;
+  top: 38px;
+}
+
+#chat {
+  position: absolute;
+  width: 800px;
+  height: 482px;
+  left: 400px;
+  top: 270px;
+  background: #D9D9D9;
+  mix-blend-mode: screen;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 37px;
+}
+
+#send {
+  position: absolute;
+  font-size: 100px;
+  left: 550px;
+  top: 750px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#like {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 780px;
+  top: 780px;
+}
+
+#record {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 880px;
+  top: 775px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+  position: absolute;
+  width: 164px;
+  height: 54px;
+  left: 980px;
+  top: 780px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+#search {
+  position: absolute;
+  width: 300px;
+  height: 756px;
+  left: 60px;
+  top: 60px;
+  background: rgba(8, 36, 147, 0.95);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 37px;
+}
+
+#searchT {
+  position: absolute;
+  font-size: 100px;
+  left: 50px;
+  top: 200x;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#sendT {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 240px;
+  top: 40px;
+}
+
+
+#p1 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 40px;
+  top: 120px;
+  color: #000000;
+}
+
+#p2 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 40px;
+  top: 220px;
+}
+
+#p3 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 40px;
+  top: 320px;
+}
+
+#p4 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 40px;
+  top: 420px;
+}
+
+#p5 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 40px;
+  top: 520px;
+}
+
+#p6 {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 40px;
+  top: 620px;
+}
+
+.read {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 450px;
+  top: 20px;
+}
+
+.sent {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 450px;
+  top: 120px;
+}
+
+.liked {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 330px;
+  top: 30px;
+}
+
+.line {
+  margin-right: 15px;
+  margin-top: 85px;
+  text-align: center;
+}
+
+
